@@ -67,14 +67,15 @@ h1 {
   background-color: #3A4032;
 }
 
-.selected-city {
-  background-color: #F3DFA2;
-  color: #292E1E;
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.selected-city:hover {
-  background-color: #F3DFA2;
-  color: #292E1E;
+.selected-city {
+  background-color: #4E5645;
 }
 
 .selected-city-info {
@@ -104,6 +105,28 @@ h1 {
 .back-to-location button:active {
   background-color: #3E8E41;
   transform: scale(1);
+}
+
+.filter-controls label {
+  color: #F3DFA2;
+  font-weight: 500;
+}
+
+.filter-controls select {
+  padding: 6px 12px;
+  background-color: #4E5645;
+  color: #F3DFA2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 30px;
+}
+
+.filter-controls select:focus {
+  outline: none;
+  background-color: #4E5645;
 }
 
 .city-table th,
