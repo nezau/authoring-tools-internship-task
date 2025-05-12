@@ -7,15 +7,15 @@ Users can click on a city to recalculate distances from that city to all other c
 
 ## Features
 
--Calculate distance between your current location (or selected city) and other cities
+- Calculate distance between your current location (or selected city) and other cities
 
--Click on a city to make it the new origin
+- Click on a city to make it the new origin
 
--See current weather (temperature, icon, description) for each city
+- See current weather (temperature, icon, description) for each city
 
--Responsive UI (adjusts for very small screens)
+- Responsive UI (adjusts for very small screens)
 
--Smooth scroll from the landing page to the table
+- Smooth scroll from the landing page to the table
 
 ---
 
@@ -101,18 +101,18 @@ function degreesToRadians(degrees) {
 ```
 ---
 ## Use of AI
-- Styling
-- Troubleshooting
+- UI styling
+- Troubleshooting and debugging
 - Generate basic code, like route templates
 
 ---
 
 ## How to improve the app
--Add info for current location
--Improve UI/UX when switching the selected city
--Cache weather data to avoid multiple API calls when clicking cities
--Add error handling for unreachable APIs (both city and weather)
--Deploy both backend and frontend to a hosting provider
--Remove hardcoded weather api key
--Better code organisation
--State management (eg. Pinia)
+- Add info for current location
+- Improve UI/UX when switching the selected city
+- Cache weather data to avoid multiple API calls when clicking cities
+- Add error handling for unreachable APIs (both city and weather)
+- Deploy both backend and frontend to a hosting provider
+- Remove hardcoded weather api key
+- Better code organisation
+- State management (eg. Pinia)
