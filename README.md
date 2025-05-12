@@ -3,6 +3,9 @@
 City Distance Calculator is a web application that allows users to calculate distances between user's current location and 25 random cities and check the current weather for each city.
 Users can click on a city to recalculate distances from that city to all other cities.
 
+![City Calculator App Screenshot 1](./docs/Screenshot1.png)
+![City Calculator App Screenshot 2](./docs/Screenshot2.png)
+
 ---
 
 ## Features
