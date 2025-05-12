@@ -17,24 +17,24 @@
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   margin: 0;
 }
 
 .scroll-button {
   padding: 0.75rem 1.5rem;
-  background-color: #A3B18A;
+  background-color: #606C38;
   border: none;
   border-radius: 8px;
   color: #292E1E;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .scroll-button:hover {
-  background-color: #8A9C73;
+  background-color: #A3B18A;
 }
 
 .table-section {
@@ -67,6 +67,23 @@ h1 {
   background-color: #3a4032;
 }
 
+.selected-city {
+  background-color: #F3DFA2;
+  color: #292E1E;
+}
+
+.selected-city:hover {
+  background-color: #F3DFA2;
+  color: #292E1E;
+}
+
+.selected-city-info {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #F3DFA2;
+}
+
 .city-table th,
 .city-table td {
   padding: 0.75rem;
@@ -74,7 +91,7 @@ h1 {
 }
 
 .city-table th {
-  background-color: #BDC4A7;
+  background-color: #606C38;
   color: #292E1E;
   text-align: left;
 }
